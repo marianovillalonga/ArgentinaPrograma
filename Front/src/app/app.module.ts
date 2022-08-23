@@ -9,6 +9,8 @@ import { SobremiComponent } from './pages/sobremi/sobremi.component';
 import { AboutComponent } from './pages/about/about.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { CrearComponent } from './pages/crear/crear.component';
+import { ListarComponent } from './pages/listar/listar.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { ContactComponent } from './pages/contact/contact.component';
     SobremiComponent,
     AboutComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    CrearComponent,
+    ListarComponent
   ],
   imports: [
     BrowserModule,

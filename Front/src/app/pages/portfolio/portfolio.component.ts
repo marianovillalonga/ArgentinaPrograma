@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import axios from 'axios';
 
 @Component({
   selector: 'app-portfolio',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  
+    constructor() { }
+  
+    ngOnInit(): void {
+      axios.get('http://localhost:8000')
+    }
+  
 
 }
