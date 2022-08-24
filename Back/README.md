@@ -11,7 +11,7 @@ Para instalar este programa ejecute el comando npm install
 ## Librerias instaladas 
 
 - Nodemon
-- mongoose
+- MySql
 - express
 - dotenv
 - cors

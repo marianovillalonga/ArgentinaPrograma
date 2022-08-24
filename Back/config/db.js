@@ -1,14 +1,16 @@
-const mongoose = require('mongoose');
-require('dotenv').config({ path: 'variables.env' });
+const mysql = require('mysql');
+require('dotenv').config({ path: '.env' });
 
 const conectarDB = async () => {
 
     try {
 
-        await mongoose.connect(process.env.DB_MONGO, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            useFindAndModify: false
+        await mysql.createConnection(process.env, {
+            host: process.env.DB_HOST,
+            user: process.env.DB_USER,
+            password: process.env.DB_PASS,
+            port: process.env.DB_PORT,
+            database: process.env.DB_DATABASE
         })
         console.log('BD Conectada');
         
