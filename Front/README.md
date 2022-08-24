@@ -1,27 +1,35 @@
-# Proyecto
+# Proyecto Argentina Programa parte de Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+## Instalacion del proyecto
 
-## Development server
+Para instalar este programa ejecute el comando npm install
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tenga en cuenta que este programa necesita npm y nodeJS
 
-## Code scaffolding
+## Para ejecutar la parte del back solo tiene que poner ng serve -o
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Librerias instaladas 
 
-## Build
+- ngx-toastr
+- rxjs
+- tslib
+- zone.js
+- angular
+- Typescript
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Estructura del repositorio
+ | src   
+    | app 
+        | models el modelo de nuestro front
+        | components los componentes de nuestro sistema
+            | crear es el componente para crear las paginas web realizadas
+            | home incorporamos todos los componentes de pages y shared
+            | listar listamos todas las web que cargamos en el componente crear
+            | pages
+                | about componente que se muestran en el index
+                | contact componente que se muestran en el index
+                | sobre mi componente que se muestran en el index
+            | shared componente header y footer   
+    | asset encontramos img y el cv
+    | models el modelo de nuestro front
+ 
