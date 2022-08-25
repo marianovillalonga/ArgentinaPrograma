@@ -16,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { HttpClientModule } from '@angular/common/http';
+import { SkillComponent } from './components/pages/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     ContactComponent,
     ListarComponent,
-    CrearComponent
+    CrearComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
