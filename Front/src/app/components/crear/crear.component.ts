@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { Pagina } from 'src/app/models/pagina';
-import { PaginasService } from 'src/app/services/paginas.service';
+import { PaginasService } from 'src/app/services/paginas.service';  
 
 @Component({
   selector: 'app-crear',
