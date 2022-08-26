@@ -27,7 +27,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
-    this.userService.register(this.formLogin.value)
+    this.userService.login(this.formLogin.value)
       .then(response => {
         console.log(response);
         this.router.navigate(['/listar']);

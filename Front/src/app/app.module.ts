@@ -17,7 +17,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { HttpClientModule } from '@angular/common/http';
 import { SkillComponent } from './components/pages/skill/skill.component';
-import { MainComponent } from './components/main/main.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
@@ -36,7 +35,6 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
     ListarComponent,
     CrearComponent,
     SkillComponent,
-    MainComponent,
     LoginComponent,
     RegisterComponent
   ],
